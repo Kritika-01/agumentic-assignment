@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header .head-img img{
+height: 620px;
+width: 100%;
+object-fit: cover;
+object-position: center;
+}
+header nav{
+    position: absolute;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav .logo{
+    margin-left: 150px;
+}
+header nav .logo img{
+    width: 45px;
+}
+header nav p{
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+header nav ul{
+    margin-left: 250px;
+    list-style: none;
+    margin-top: 6px;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    /* font-size: 20px; */
+    transition: 0.2s;
+}
+header nav ul li:hover a{
+    color: #2B8EC8;
+}
+header .header-section{
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    width: 600px;
+}
+header .header-section .heading-title{
+    color: black;
+    font-weight: bold;
+    font-size: 38px;
+}
+header .header-section .heading-title span{
+    color: #2B8EC8;
+}
+header .header-section p{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+header .header-section .signup-btn{
+    border-radius: 50px;
+    display: inline;
+    float: right;
+    background: #2B8EC8;
+    /* margin-left: 160px; */
+    padding: 10px 50px;
+    
+}
+header .header-section .signup-btn a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white ;
+    
+}
+section{
+    margin-top: 185px;
+}
+section .header1 h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+section .header1 h1 span{
+    color: #2B8EC8;
+}
+section .header1-desc{
+    width:600px;
+    margin: auto;
+    margin-top: 30px;
+}
+section .header1-desc p{
+    /* display: flex; */
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+section .teachers{
+    margin-top: 180px;
+}
+section .teachers h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #2B8EC8;
+}
+section .teachers .teachers-desc {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+section .teachers .teachers-profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 20px;
+}
+section .teachers .teachers-profile .profile{
+    
+    width: 350px;
+    /* border: 1px solid black; */
+}
+section .teachers .teachers-profile .profile .profile-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+section .teachers .teachers-profile .profile img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid #cccc;
+}
+section .teachers .teachers-profile .profile h2{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+section .teachers .teachers-profile .profile .profile-info{
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section .teachers .teachers-profile .profile p{
+    text-align: center;
+}
+
+/* section .signup-form form .signup-btn form{
+    
+} */
+
+section .signup-form{
+    width:300px;
+    margin: auto;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+section .signup-form h1{
+    text-align: center;
+}
+section .signup-form form .input p{
+    line-height: 25px;
+    color: white;
+}
+section .signup-form form .input{
+    margin: 5px;
+}
+section .signup-form form .input input,select{
+    border: 2px solid #cccccc;
+    background: #eeeeee;
+    height: 35px;
+    width: 300px;
+    padding: 0 10px;
+    border-radius: 5px;
+    outline: none;
+}
+section .signup-form form .input input:focus,select:focus{
+    border: 2px solid #2B8EC8;
+}
+section .signup-form form .signup-btn .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: #2B8EC8;
+    margin-top: 20px;
+    padding: 10px 5px;
+    width: 160px;
+    transition: 0.2s;
+    border-radius: 25px;
+}
+section .signup-form form .signup-btn a{
+    color: white;
+    text-decoration: none;
+}
+section .signup-form form .signup-btn .btn:hover{
+    background: black;
+    /* border: 1px solid black; */
+}
+section .signup-form form .signup-btn .btn:hover{
+    color: white;
+}
+
+footer{
+    width: 100%;
+    background: #eeeeee;
+    padding: 30px 0 0 20px;
+}
+footer .footer-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer .footer-main .footer-tag{
+    text-align: center;
+}
+footer .footer-main .footer-tag h2{
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 25px;
+}
+footer .footer-main .footer-tag ul{
+    margin: 10px 0;
+    list-style: none;
+}
+
+footer .footer-main .footer-tag ul li{
+    /* display: inline-block; */
+    margin: 0 15px;
+    
+}
+footer .footer-main .footer-tag ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    /* font-size: 20px; */
+    transition: 0.2s;
+}
+footer .footer-main .footer-tag ul li:hover a{
+    color: #2B8EC8;
+}
+
+footer .footer-main .footer-tag i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+footer .footer-main .footer-tag i:hover{
+    color: #2B8EC8;
+}
